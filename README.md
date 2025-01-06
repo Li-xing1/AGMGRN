@@ -8,8 +8,6 @@ If you use this code for your research, please cite:
 ```
 
 ## Train
-
-- Check `requirements.txt`
 - Unzip `data.zip`
 - Train:
   ```shell
