@@ -1,0 +1,18 @@
+---
+model:
+  d_model: 16
+  d_k: 4
+  d_hidden_mt: 16
+  d_hidden_ff: 16
+  d_hidden_gm: 16
+  num_encoder_layers: 2
+  num_decoder_layers: 2
+  num_heads: 4
+  dropout: 0.3
+  noTSA: False
+  noSSA: False
+  noML: False
+  noAG: False
+  noGC: False
+  noTE: False
+  noSE: False

@@ -1,0 +1,21 @@
+---
+dataset:
+  name: 'SHMetro'
+  eigenmaps_k: 8
+  in_len: 4
+  out_len: 4
+  top_k: 10
+  num_nodes: 288
+  debug: False
+  features:
+    - 0
+    - 1
+  which_transition_matrices: [ True,True,True ]
+  temporal_num_embeddings: [ 73,2,6,4,1,1,1 ] # default [ 73,2,6,4,1,1,1 ] #x_time, x_rest, x_wtNm, x_wtWinp, x_wtTemp, x_wtHumi, x_wtAqi
+  spatial_num_embeddings: [ 10,20,1,1 ]
+  start_data: '2016-07-01'
+  end_data: '2016-09-30'
+  start_time: '5:30'
+  end_time: '23:30'
+  interval: 15
+  time_ranges: [ [ '7:00','9:00' ],[ '17:00','19:00' ] ]

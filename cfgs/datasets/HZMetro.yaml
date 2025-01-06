@@ -1,0 +1,17 @@
+---
+dataset:
+  name: 'HZMetro'
+  eigenmaps_k: 8
+  num_nodes: 80
+  in_len: 4
+  out_len: 4
+  top_k: 10
+  debug: False
+  features:
+    - 0
+    - 1
+  which_transition_matrices: [ True,True,True ]
+  temporal_num_embeddings: [ 73,2,7,5,1,1,1 ] # default [ 73,2,7,5,1,1,1 ] #x_time, x_rest, x_wtNm, x_wtWinp, x_wtTemp, x_wtHumi, x_wtAqi
+  spatial_num_embeddings: [ 0 ]
+  time_ranges: [ [ '7:00','9:00' ],[ '17:00','19:00' ] ]
+

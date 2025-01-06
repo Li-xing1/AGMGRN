@@ -1,0 +1,19 @@
+---
+dataset:
+  name: 'PEMS08'
+  eigenmaps_k: 8
+  in_len: 12
+  out_len: 12
+  ratio: [ 40,12, 10 ]
+  top_k: 10
+  num_nodes: 170
+  debug: False
+  features:
+    - 2
+  which_transition_matrices: [ True,True ]
+  temporal_num_embeddings: [ 288, 2 ]
+  spatial_num_embeddings: [ 10,20,1,1 ]
+  start_data: '2016-07-01'
+  end_data: '2016-08-31'
+  interval: 5
+  time_ranges: [ [ '6:00','24:00' ]]

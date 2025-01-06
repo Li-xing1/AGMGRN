@@ -1,0 +1,18 @@
+---
+device: cuda:0
+exp_name_mode: 'mape'  # selectable['mape','model_name','customization']
+lr: 0.001
+eps: 1.0e-08
+weight_decay: 0.0002
+milestones: [ 0.20,0.50,0.80 ]
+gamma: 0.1
+patience_epochs: 200
+val_freq: 1
+clip_grad_norm: True
+max_grad_norm: 1000
+amp: 10000
+use_curriculum_learning: True
+cl_decay_steps: 500
+test: False
+save_every: 200
+mape: True
